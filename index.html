@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="firstPage">GIMME MORE . . . </h1>
+    <div class="food">
+        <a href="#secondPage"><h2>FOOD</h2> </a>
+    </div>
+    <div class="drinks">
+        <a href="#thirdPage"><h2>DRINKS</h2></a>
+    </div>
+    <div class="desserts">
+        <a href="#fourthPage"> <h2>DESSERTS</h2> </a>
+    </div>
+    <div class="pic">
+        <a href="#fifthPage"><img src="chris-liverani-YBR-AWm1HQ4-unsplash.jpg" alt="hands"width="250px"></a>
+    </div>
+
+    <!--page 2 Food-->
+    <div class="top">
+        <h1 id="secondPage">FOOD</h1>
+        <a href="#fifthPage"> <h2 class="cart">CART</h2> </a>
+    </div>
+    <div class="card burger" data-id="01">
+        <img class = "burgerPic productPic" src="healthy burger.jpg" alt="burger"width = "180px">
+        <div class="container">
+            <p class="text title">bagel with <br> creamcheese & salmon</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAdd">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  10 </p>
+            </div>
+        </div>
+    </div>
+    <div class="card combo" data-id="02">
+        <img class="comboPic productPic" src="combo.jpg" alt="combo"width = "180px">
+        <div class="container">
+            <p class="text title">combo <br> burger, french fries & sauce</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAdd">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  15 </p>
+            </div>
+        </div>
+    </div>
+    <div class="pizzaBack">
+        <div class="back">
+            <a href="#firstPage"><h2 class="back">BACK</h2></a>
+        </div>
+        <div class="card pizza" data-id="03">
+            <img class = "pizzaPic productPic" src="pizza.jpg" alt="pizza"width = "180px">
+        <div class="container">
+            <p class="text title">pizza with sausages and arugula</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAdd">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  20   </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--/page 2 Food-->
+
+    <!--page 3 Drinks -->
+    <div class="top">
+        <h1 id="thirdPage">DRINKS</h1>
+        <a href="#fifthPage"><h2  class="cartPage3">CART</h2></a>
+    </div>
+    <div class="common-container">
+    <div class="card blue" data-id="04">
+        <img class = "bluePic productPic" src="blue.jpg" alt="sparkling wine" width = "180px">
+        <div class="container">
+            <p class="text title">blue</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage3">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  6 </p>
+            </div>
+        </div>
+        <a href="#firstPage"><h2 class="back">BACK</h2></a>
+    </div>
+    <div class="card yellow"data-id="05">
+        <img class="yellowPic productPic" src="yellow.jpg" alt="sparkling wine"width = "180px">
+        <div class="container">
+            <p class="text title">yellow</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage3">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  5 </p>
+            </div>
+        </div>
+    </div>                                                                                                                                                                                                   
+    <div class= "card green" data-id="06">
+        <img class="greenPic productPic" src="green.jpg" alt="sparkling wine"width = "180px">
+        <div class="container">
+            <p class="text title">green</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage3">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct"> 6 </p>
+            </div>
+        </div>
+    </div>
+        <div class="card red" data-id="07">
+            <img class = "redPic productPic" src="red.jpg" alt="sparkling wine"width = "180px">
+        <div class="container">
+            <p class="text title">red</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage3">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="price priceProduct">  6</p>
+            </div>
+        </div>
+        </div>        
+    </div>
+    <!--/page 3 Drinks -->
+    <!--page 4 Desserts -->
+    <div class="containerDesserts">
+    <div class="top">
+        <h1 id="fourthPage">DESSERTS</h1>
+        <a href="#fifthPage"> <h2 class="cartPage4">CART</h2> </a>
+    </div>
+    <div class="card brownie"data-id="08">
+        <img class = "browniePic productPic" src="brownie.jpg" alt="brownie" width = "180px">
+        <div class="containerPage4">
+            <p class="textPage4 title">brownie with ice-cream</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage4">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="pricePage4 priceProduct">  8 </p>
+            </div>  
+        </div>      
+    </div>
+
+    <div class="card cupcakes" data-id="09">
+        <img class="cupcakesPic productPic" src="cupcake.jpg" alt="cupcakes"width = "180px">
+        <div class="containerPage4">
+            <p class="textPage4 title">chocolate cupcakes with rum</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage4">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="pricePage4 priceProduct">  5 </p>
+            </div> 
+        </div>
+    </div>
+    <div class="card pavlova" data-id="10">
+        <img class="pavlovaPic productPic" src="pavlova.jpg" alt="pavlova"width = "180px">
+        <div class="containerPage4">
+            <p class="textPage4 title">peach pavlova with flowers</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage4">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="pricePage4 priceProduct">  9 </p>
+            </div> 
+        </div>
+    </div>
+    <div class="cookiesBack">
+        
+        <div class="card cookies" data-id="11">
+            <img class = "cookiesPic productPic" src="cookies.jpg" alt="cookies"width = "180px">
+        <div class="containerPage4">
+            <p class="textPage4 title">cookies</p>
+            <div class="items counter-wrapper">
+                <button class="itemMinus" data-action="minus">-</button>
+                <button class="counter" data-counter>1</button>
+                <button class="itemPlus" data-action="plus">+</button>
+            </div>
+            <button data-cart type="button" class="btnAddPage4">add</button>
+            <div class = "spanPrice">
+                <span>$</span>
+                <p class="pricePage4 priceProduct">  3 </p>
+            </div> 
+        </div>
+    </div>
+</div>
+<a href="#firstPage"><h2 class="back4">BACK</h2></a>
+</div>
+    <!--/page 4 Desserts-->
+    <!--page 5 Cart-->
+    <div class="containerCart">
+    <div class="top">
+        <h1 id = "fifthPage">CART</h1>   
+    </div>
+    <p class="textEmpty" data-cart-empty>Cart is empty</p>
+    <div class="cart-wrapper">  <!--cart wrapper--> </div>
+    <div class="total">
+        <div class="containerDelivery">
+            <p class="textDelivery">Delivery:</p>
+            <p class="deliveryFree">Free food delivery from $ 20</p>
+        </div>
+        <div class="containerPage5">
+            <p class="text order">Order ahead</p>
+            <span class="textPrice">$</span>
+            <p class="totalAmount">0</p>
+        </div>
+        <form class="form">
+                <input class="userNumber" type="text" placeholder="Enter your phone number">
+                <button type="submit" class="btnOrder">Click to order</button>
+        </form>
+        <a href="#firstPage"><h2 class="backPage5">BACK</h2></a>
+    </div>
+    <!--/page 5 Cart-->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="javaScript/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,332 @@
+     @font-face {
+    font-family: 'porter_sans_blockblock';
+    src: url('porter-sans-inline-block-webfont.eot');
+    src: url('porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('porter-sans-inline-block-webfont.woff') format('woff'),
+         url('porter-sans-inline-block-webfont.ttf') format('truetype'),
+         url('porter-sans-inline-block-webfont.svg#porter_sans_blockblock') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: black;
+}
+h1, h2{
+    font-family: 'porter_sans_blockblock';
+}
+h1{
+    font-size: 40px;
+    margin: 50px;
+    background:white; 
+    fill: white;
+    stroke: black;
+    stroke-width:5px;
+    filter: blur(0.1px);
+    text-shadow: 0 0 15px #82143C,
+    0 0 155px #82143C,
+    0px 0px 225px #29FAEB;
+    -webkit-background-clip: text; /* Фон  отображается только внутри текста */
+    background-clip: text; /* Для современных  браузеров */
+    -webkit-text-fill-color: transparent; /*  Прозрачный цвет */
+}
+h2{
+    font-size: 30px;
+    background:white; 
+    fill: white;
+    stroke: black;
+    stroke-width:5px;
+    filter: blur(0.1px);
+    text-shadow: 
+    0px 0px 0.2px #29FAEB,
+    0px 0px 300px #29FAEB,
+    0px 0px 20px #82143C,
+    0px 0px 50px #82143C,
+    0px 0px 75px #82143C;
+    -webkit-background-clip: text; /* Фон  отображается только внутри текста */
+    background-clip: text; /* Для современных  браузеров */
+    -webkit-text-fill-color: transparent; /*  Прозрачный цвет */
+}
+.food{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.drinks{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.desserts{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.pic{
+    margin-left: 850px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+/*page 2 */
+.spanPrice{
+    display: flex;
+     
+}
+span{
+    margin-top: 12px;
+}
+#secondPage, #thirdPage, #fourthPage, #fifthPage{
+    font-size: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.cart{
+    font-size: 25px;
+    margin-left: 800px;
+    margin-top: 25px;
+}
+.top{
+    display: flex;
+    height: 110px;
+}
+.back{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 65px;
+    margin-left: 12px;
+}
+.burger, .combo, .pizza,.items{
+    display: flex;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.pizzaBack{
+    display: flex;
+}
+.text, .price {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 7px;
+    font-family: 'Port Lligat Slab', serif;
+}
+.counter-wrapper {
+    justify-content: start;
+    margin-left: 10px;
+}
+.burgerPic{
+    margin-left: 20px;
+    width: 150px;
+    height:150px;
+}
+.comboPic, .pizzaPic{
+    margin-left: 20px;
+    width: 200px;
+    height: 150px;
+}
+.btnAdd{
+    align-self: self-start;
+    margin-left: 15px;
+    width: 68px;
+    background: #161616;
+    color: white;
+}
+.burger{
+    justify-content: flex-start;
+}
+.combo{
+    justify-content: center;
+}
+.pizza{
+    margin-left: 750px;
+}
+
+.itemMinus, .counter, .itemPlus{
+    background: #161616;
+    color: white;
+    font-family: 'Port Lligat Slab', serif;
+}
+
+/* page 3*/
+
+.cartPage3{
+    font-size: 25px;
+    margin-left: 740px;
+    margin-top: 15px;
+}
+.container{
+    margin-left: 20px;
+}
+.btnAddPage3{
+    align-self: self-start;
+    width: 70px;
+    background: #161616;
+    color: white;
+    margin-left: 13px;
+}
+.common-container{
+    display: flex;
+}
+.yellow{
+    margin-left: 150px ;
+    margin-top: 40px;
+}
+.green{
+    margin-left: 150px ;
+    margin-top: 80px;
+}
+.red{
+    margin-left: 150px ;
+    margin-top: 120px;
+}
+/* psge 4 */
+.containerDesserts{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.cartPage4{
+    font-size: 25px;
+    margin-left: 640px;
+    margin-top: 15px;
+}
+.containerPage4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.textPage4, .pricePage4 {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Port Lligat Slab', serif;
+}
+.btnAddPage4{
+    align-self: self-start;
+    margin-left: 15px;
+    width: 68px;
+    background: #161616;
+    color: white;
+}
+.brownie, .cupcakes, .pavlova, .cookies{
+    display:flex;
+} 
+.brownieBAck{
+    display: flex;
+    flex-direction: column;
+}
+.browniePic{
+    width: 105px;
+}
+.cupcakesPic{
+    width: 125px;
+    height: 110px;
+}
+.cupcakes{
+    margin-left: 250px;
+}
+.pavlovaPic{
+    width: 110px;
+    height: 120px;
+}
+.pavlova{
+    margin-left: 550px;
+}
+.cookiesBack{
+    display: flex;
+}
+.cookiesPic{
+    width: 105px;
+    height: 100px;
+}
+.cookies{
+    margin-left: 800px;
+}
+.back4{
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: 20px ;
+}
+/* page 5 */
+.containerCart{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#fifthPage{
+    margin-top: 10px;
+}
+.textEmpty, .textDelivery,.deliveryFree{
+    color: white;
+    font-size: 30px;
+    font-family: 'Port Lligat Slab', serif;
+    margin-left: 20px;
+}
+.containerDelivery{
+    display: flex;
+    margin: 0;
+}
+.textDelivery, .deliveryFree{
+    font-size: 25px;
+}
+.containerPage5{
+    margin-top: 5px;
+    display: flex;
+    margin-left: 20px;
+}
+.order, .textPrice, .totalAmount{
+    font-size: 25px;
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+.backPage5{margin-top: 20vh;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.cartItemDetails{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.cart-wrapper{
+    display: flex;
+}
+.cartItemDetails{
+    display: flex;
+}
+.cartItemPic{
+    width: 120px;
+    height: 130px;
+    margin-left: 20px;
+}
+.cartItemTitle,.priceProduct, span {
+    color: white;
+    font-size: 15px;
+    font-family: 'Port Lligat Slab', serif;
+    margin-left: 20px;
+}
+.cartItemPrice {
+    margin-top: 0;
+}
+.form{
+    margin: 20px;
+    display: none;
+}
+.btnOrder,input{
+    border: solid 1px #171414;;
+    background: #171414;
+    height: 28px;
+    font-size: 15px;
+    font-family: 'Port Lligat Slab', serif;
+    color: antiquewhite;
+}
+.priceProduct{
+    margin-top: 7px;;
+}
+.one{
+    margin-top: 12px;;
+}
