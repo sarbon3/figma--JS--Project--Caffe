@@ -43,53 +43,6 @@ window.addEventListener("click",function(event){
             counterItemInCart.innerText = parseInt(counterItemInCart.innerText) + parseInt(productInfo.counter);
         }
         else {
-            /*const cartItem = document.createElement("div");
-            cartItem.classList.add("cartItem");
-            cartItem.setAttribute("data-id","${productInfo.id}");
-            
-            const cartItemPic = document.createElement("img");
-            cartItemPic.src = "${productInfo.imgSrc}";
-
-            const cartItemDetails = document.createElement("div");
-            cartItemDetails.classList.add("cartItemDetails");
-            
-            const cartItemTitle =document.createElement("p");
-            cartItemTitle.classList.add("cartItemTitle");
-            cartItemTitle.innerHTML = "${productInfo.title}";
-
-            const itemsCounterWrapper = document.createElement("div");
-            itemsCounterWrapper.classList.add("items");
-            itemsCounterWrapper.classList.add("counter-wrapper");
-
-            const minus = document.createElement("button");
-            minus.classList.add("itemMinus");
-            minus.setAttribute("data-action","minus");
-            minus.innerHTML = "-";
-
-            const counter = document.createElement("button");
-            counter.classList.add("itemPlus");
-            counter.setAttribute("data-counter","");
-            counter.innerHTML = "${productInfo.counter}";
-
-            const plus = document.createElement("button");
-            plus.classList.add("itemPlus");
-            plus.setAttribute("data-action","plus");
-            plus.innerHTML = "+";
-            
-            const cartItemPrice = document.createElement("p");
-            cartItemPrice.classList.add("cartItemPrice");
-            cartItemPrice.innerHTML = "${productInfo.price}";
-
-            cartWrapper.appendChild(cartItem);
-            cartItem.appendChild(cartItemPic);
-            cartItem.appendChild(cartItemDetails);
-            cartItemDetails.appendChild(cartItemTitle);
-            cartItemDetails.appendChild(itemsCounterWrapper);
-            itemsCounterWrapper.appendChild(minus);
-            itemsCounterWrapper.appendChild(counter);
-            itemsCounterWrapper.appendChild(plus);
-            cartItemDetails.appendChild(cartItemPrice);*/
-
             const cartItemHTML = 
         `<div class="cartItem cart-item"data-id ="${productInfo.id}">
             <img class="cartItemPic" src="${productInfo.imgSrc}" alt="">
@@ -159,7 +112,6 @@ cartItems.forEach(function(item){
 const btnOrder = document.querySelector(".btnOrder");
 btnOrder.addEventListener("click", () =>{
     const userNumber = document.querySelector(".userNumber");
-    console.log(userNumber.value.length)
     
     if(userNumber.value === "" ){
         Swal.fire({
@@ -196,7 +148,7 @@ btnOrder.addEventListener("click", () =>{
         showConfirmButton: false,
         timer: 2000
       });
-      location.reload();// Не работает
+      location.reload();
     }
 })
 
